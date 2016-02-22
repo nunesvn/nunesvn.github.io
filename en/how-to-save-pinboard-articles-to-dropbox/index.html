@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    How to save Pinboard articles to Dropbox // Nunes ＋
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Michael Nunes">
+<meta name="generator" content="Hugo 0.15" />
+
+  <meta property="og:title" content="How to save Pinboard articles to Dropbox" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://nunes.pl/en/how-to-save-pinboard-articles-to-dropbox/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="http://nunes.pl//css/redlounge.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Nunes ＋" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    
+
+	
+
+    <h1 class="brand-title">Nunes ＋</h1>
+    <h2 class="brand-tagline">by Michael Nunes</h2>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="http://nunes.pl/">Home</a></li>
+        
+          <br><li class="nav-item"><span class="nav-item-separator">//</span><a href="/en/">english</a></li>
+        
+          <br><li class="nav-item"><span class="nav-item-separator">//</span><a href="/pt_br/">português</a></li>
+        
+      </ul>
+    </nav>
+
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+			
+		    <div id="toc" class="pure-u-1 pure-u-md-1-4">
+				<small class="toc-label">Contents</small>
+		   	 	<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#selecting-the-feed:5ab6962d8ee079b9fb581ca8ba704a45">Selecting the feed</a></li>
+<li><a href="#on-ifttt:5ab6962d8ee079b9fb581ca8ba704a45">On IFTTT</a></li>
+<li><a href="#conclusion:5ab6962d8ee079b9fb581ca8ba704a45">Conclusion</a></li>
+</ul></li>
+</ul>
+</nav>
+		    </div>
+		    
+	    
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/en/how-to-save-pinboard-articles-to-dropbox/">How to save Pinboard articles to Dropbox</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	<span class="post-date">
+                	<span class="post-date-day"><sup>24</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Apr</span> <span class="post-date-year">2014</span>
+            	</span>
+            	
+            
+            	
+            		<span class="post-author-single">By <a class="post-author"  target="">Michael Nunes</a></span>
+            		
+
+
+
+
+            	
+            
+
+			
+			
+				<div class="post-categories">
+				
+					<a class="post-category post-category-productivity" href="http://nunes.pl//categories/productivity">Productivity</a>
+				
+				</div>
+			
+
+			
+
+			
+
+            
+
+<p><a href="http://pinboard.in">Pinboard</a> is a great online bookmark service, with plenty of features and multi platform apps and hooks.
+<a href="http://thesweetsetup.com/articles/a-beginners-guide-to-pinboard/">The Sweet Setup</a> website have an excellent guide for starting on using the service and its possibilities.</p>
+
+<p>Apart the standard features, Pinboard offers a premium account type, which cost $25 a year and provides an useful feature, Bookmark Archiving. With this feature, the full
+pages your bookmarks refers are saved on the Pinboard&rsquo;s servers, so you can access and do full-text searches on them, even if the original page is not alive anymore.</p>
+
+<p>Combining some Pinboard features and external services, we can achieve similar functionality. Let&rsquo;s store the full text content of every new Pinboard bookmark
+in a specified folder of a Dropbox account.</p>
+
+<p>What we need:</p>
+
+<ul>
+<li><a href="http://pinboard.in">Pinboard.in</a></li>
+<li><a href="http://ifttt.com">IFTTT</a> Account</li>
+<li><a href="http://heckyesmarkdown.com">Marky, the Markdownifier</a>, by <a href="http://brettterpstra.com">Brett Terpstra</a></li>
+<li>Dropbox</li>
+</ul>
+
+<p>We&rsquo;ll make IFTTT read Pinboard&rsquo;s RSS feeds, passing any new URL through Marky and saving the result Markdown .txt file to Dropbox.</p>
+
+<h2 id="selecting-the-feed:5ab6962d8ee079b9fb581ca8ba704a45">Selecting the feed</h2>
+
+<p>You can select with high level of granularity which bookmarks have their contents saved to Dropbox. Pinboard generates the RSS feed for almost any categorization
+possible on the service, so you can choose to save just bookmarks with some specific tag, or just the starred ones, or all of them. For this example, let&rsquo;s get all.</p>
+
+<p>Selecting the &ldquo;all&rdquo; view, just copy the link to the feed on the right:</p>
+
+<p><img src="/images/2014/04/pinboard-dropbox-1.png" alt="" /></p>
+
+<p>It should be something like <code>http://feeds.pinboard.in/rss/secret:763786e74e628a78/u:nunesvn/</code>.</p>
+
+<h2 id="on-ifttt:5ab6962d8ee079b9fb581ca8ba704a45">On IFTTT</h2>
+
+<p>You should create a new recipe on IFTTT. Be sure to select the &ldquo;Feed&rdquo; channel, not the &ldquo;Pinboard&rdquo; channel for the &ldquo;this&rdquo; part of the recipe. As the trigger, select
+&ldquo;New Feed Item&rdquo;, and put your selected feed URL on the correct field. For the &ldquo;that&rdquo; section, select your already configured Dropbox channel, and the action &ldquo;Add file from URL&rdquo;.
+Now, this is the moment where you&rsquo;ll pass the URL from the Pinboard feed through the Markdownifier, and save the results to Dropbox. Enter on &ldquo;File URL&rdquo;:</p>
+
+<p><code>http://heckyesmarkdown.com/go/?read=1&amp;u={% raw %}{{EntryUrl}}{% endraw %}</code></p>
+
+<p>On &ldquo;File Name&rdquo;:</p>
+
+<p><code>{% raw %}{{EntryTitle}}{% endraw %}</code></p>
+
+<p>And in &ldquo;Dropbox folder path&rdquo;, your folder for saving the text files, in my case, &ldquo;Pinboard/&rdquo;.</p>
+
+<h2 id="conclusion:5ab6962d8ee079b9fb581ca8ba704a45">Conclusion</h2>
+
+<p>At this point, you should be receiving text files with bookmarked article contents some minutes after adding them to Pinboard. If you just want to save your bookmarks,
+and not their contents, there are <a href="http://brettterpstra.com/2011/04/02/mirror-your-pinboard-bookmarks-with-openmeta-tags/">other ways</a> to do this. I&rsquo;m sure there are other ways to save all content, (including subscribing to the premium Pinboard service),
+but I think this is the simplest, if you don&rsquo;t have any problems with using a third party service acessing both your Pinboard and your Dropbox accounts.</p>
+
+	
+			
+
+			
+				<div class="tags-list">
+					<span class="dark-red">Tags</span><span class="decorative-marker">//</span>
+					
+	                <a class="post-tag post-tag-pinboard" href="http://nunes.pl//tags/pinboard">Pinboard</a>,
+	                
+	                <a class="post-tag post-tag-dropbox" href="http://nunes.pl//tags/dropbox">Dropbox</a>,
+	                
+	                <a class="post-tag post-tag-ifttt" href="http://nunes.pl//tags/ifttt">IFTTT</a>,
+	                
+	                <a class="post-tag post-tag-markdown" href="http://nunes.pl//tags/markdown">Markdown</a>,
+	                
+				</div>
+			
+
+			
+				<div class="paging">
+					<span class="paging-label">More Reading</span>
+					
+					<div class="paging-newer">
+						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
+						<a class="paging-link" href="/en/google-apps-logo/">What&#39;s wrong with Google Apps Logo?</a>
+		            </div>
+		            
+
+					
+					<div class="paging-older">
+						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
+			            <a class="paging-link" href="/en/link-band-releases-album-as-kernel-module/">&#43; Band releases album as kernel module</a>
+		            </div>
+		            
+	            </div>
+            
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+	<div class="pure-menu pure-menu-horizontal pure-menu-open">
+		<ul class="footer-menu">
+		
+		</ul>
+	</div>
+
+	<p>&copy; 2016. All rights reserved.</p>
+</div>
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>
