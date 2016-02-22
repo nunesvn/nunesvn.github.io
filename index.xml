@@ -139,5 +139,25 @@ but I think this is the simplest, if you don&amp;rsquo;t have any problems with 
 </description>
     </item>
     
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://nunes.pl/cv/</link>
+      <pubDate>Sun, 21 Feb 2016 00:53:37 -0300</pubDate>
+      
+      <guid>http://nunes.pl/cv/</guid>
+      <description>&lt;p&gt;Under development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://nunes.pl/about/</link>
+      <pubDate>Fri, 19 Feb 2016 01:25:30 -0200</pubDate>
+      
+      <guid>http://nunes.pl/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m mk@nunes.pl.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
