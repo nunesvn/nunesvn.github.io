@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Nunes ＋</title>
+    <link>http://nunes.pl/tags/tech/</link>
+    <description>Recent content in Tech on Nunes ＋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jan 2015 00:19:00 +0000</lastBuildDate>
+    <atom:link href="http://nunes.pl/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What&#39;s wrong with Google Apps Logo?</title>
+      <link>http://nunes.pl/en/google-apps-logo/</link>
+      <pubDate>Wed, 07 Jan 2015 00:19:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/google-apps-logo/</guid>
+      <description>&lt;p&gt;Can anyone upload a logo to Google Apps for Work in the correct dimensions right on the first try?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

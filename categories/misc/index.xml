@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Misc on Nunes ＋</title>
+    <link>http://nunes.pl/categories/misc/</link>
+    <description>Recent content in Misc on Nunes ＋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 Apr 2014 23:42:00 +0000</lastBuildDate>
+    <atom:link href="http://nunes.pl/categories/misc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>&#43; Band releases album as kernel module</title>
+      <link>http://nunes.pl/en/link-band-releases-album-as-kernel-module/</link>
+      <pubDate>Wed, 23 Apr 2014 23:42:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/link-band-releases-album-as-kernel-module/</guid>
+      <description>&lt;p&gt;Oh my god.&lt;/p&gt;
+
+&lt;p&gt;Best comment:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There&amp;rsquo;s a man page for this, I assume.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Link: &lt;a href=&#34;http://www.jwz.org/blog/2014/04/band-releases-album-as-kernel-module/&#34;&gt;Band releases album as kernel module&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

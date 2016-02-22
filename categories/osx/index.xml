@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osx on Nunes ＋</title>
+    <link>http://nunes.pl/categories/osx/</link>
+    <description>Recent content in Osx on Nunes ＋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Apr 2014 12:15:00 +0000</lastBuildDate>
+    <atom:link href="http://nunes.pl/categories/osx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Merging Finder windows with simple Keyboard Maestro Macro</title>
+      <link>http://nunes.pl/en/merging-finder-windows-with-keyboard-maestro/</link>
+      <pubDate>Tue, 22 Apr 2014 12:15:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/merging-finder-windows-with-keyboard-maestro/</guid>
+      <description>&lt;p&gt;The new Finder tabs on OS X 10.9 Mavericks are frequently sub-used. This is a simple Keyboard Maestro macro which:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shows Finder, if it is not already on focus&lt;/li&gt;
+&lt;li&gt;Merge all your Finder windows into one, with tabs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Even if you are not a tabs person, it worth a try. No more losing control of too many Finder windows! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nunes.pl/images/2014/04/keyboard-maestro-finder.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

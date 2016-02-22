@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nunes ＋</title>
+    <link>http://nunes.pl/</link>
+    <description>Recent content on Nunes ＋</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jan 2015 00:19:00 +0000</lastBuildDate>
+    <atom:link href="http://nunes.pl/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Em português!</title>
+      <link>http://nunes.pl/pt_br/em-portugues/</link>
+      <pubDate>Wed, 07 Jan 2015 00:19:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/pt_br/em-portugues/</guid>
+      <description>&lt;p&gt;ioioioioioioi iupiii&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s wrong with Google Apps Logo?</title>
+      <link>http://nunes.pl/en/google-apps-logo/</link>
+      <pubDate>Wed, 07 Jan 2015 00:19:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/google-apps-logo/</guid>
+      <description>&lt;p&gt;Can anyone upload a logo to Google Apps for Work in the correct dimensions right on the first try?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>How to save Pinboard articles to Dropbox</title>
+      <link>http://nunes.pl/en/how-to-save-pinboard-articles-to-dropbox/</link>
+      <pubDate>Thu, 24 Apr 2014 00:12:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/how-to-save-pinboard-articles-to-dropbox/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://pinboard.in&#34;&gt;Pinboard&lt;/a&gt; is a great online bookmark service, with plenty of features and multi platform apps and hooks.
+&lt;a href=&#34;http://thesweetsetup.com/articles/a-beginners-guide-to-pinboard/&#34;&gt;The Sweet Setup&lt;/a&gt; website have an excellent guide for starting on using the service and its possibilities.&lt;/p&gt;
+
+&lt;p&gt;Apart the standard features, Pinboard offers a premium account type, which cost $25 a year and provides an useful feature, Bookmark Archiving. With this feature, the full
+pages your bookmarks refers are saved on the Pinboard&amp;rsquo;s servers, so you can access and do full-text searches on them, even if the original page is not alive anymore.&lt;/p&gt;
+
+&lt;p&gt;Combining some Pinboard features and external services, we can achieve similar functionality. Let&amp;rsquo;s store the full text content of every new Pinboard bookmark
+in a specified folder of a Dropbox account.&lt;/p&gt;
+
+&lt;p&gt;What we need:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://pinboard.in&#34;&gt;Pinboard.in&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ifttt.com&#34;&gt;IFTTT&lt;/a&gt; Account&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://heckyesmarkdown.com&#34;&gt;Marky, the Markdownifier&lt;/a&gt;, by &lt;a href=&#34;http://brettterpstra.com&#34;&gt;Brett Terpstra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dropbox&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We&amp;rsquo;ll make IFTTT read Pinboard&amp;rsquo;s RSS feeds, passing any new URL through Marky and saving the result Markdown .txt file to Dropbox.&lt;/p&gt;
+
+&lt;h2 id=&#34;selecting-the-feed:5ab6962d8ee079b9fb581ca8ba704a45&#34;&gt;Selecting the feed&lt;/h2&gt;
+
+&lt;p&gt;You can select with high level of granularity which bookmarks have their contents saved to Dropbox. Pinboard generates the RSS feed for almost any categorization
+possible on the service, so you can choose to save just bookmarks with some specific tag, or just the starred ones, or all of them. For this example, let&amp;rsquo;s get all.&lt;/p&gt;
+
+&lt;p&gt;Selecting the &amp;ldquo;all&amp;rdquo; view, just copy the link to the feed on the right:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nunes.pl/images/2014/04/pinboard-dropbox-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It should be something like &lt;code&gt;http://feeds.pinboard.in/rss/secret:763786e74e628a78/u:nunesvn/&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;on-ifttt:5ab6962d8ee079b9fb581ca8ba704a45&#34;&gt;On IFTTT&lt;/h2&gt;
+
+&lt;p&gt;You should create a new recipe on IFTTT. Be sure to select the &amp;ldquo;Feed&amp;rdquo; channel, not the &amp;ldquo;Pinboard&amp;rdquo; channel for the &amp;ldquo;this&amp;rdquo; part of the recipe. As the trigger, select
+&amp;ldquo;New Feed Item&amp;rdquo;, and put your selected feed URL on the correct field. For the &amp;ldquo;that&amp;rdquo; section, select your already configured Dropbox channel, and the action &amp;ldquo;Add file from URL&amp;rdquo;.
+Now, this is the moment where you&amp;rsquo;ll pass the URL from the Pinboard feed through the Markdownifier, and save the results to Dropbox. Enter on &amp;ldquo;File URL&amp;rdquo;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;http://heckyesmarkdown.com/go/?read=1&amp;amp;u={% raw %}{{EntryUrl}}{% endraw %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;On &amp;ldquo;File Name&amp;rdquo;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;{% raw %}{{EntryTitle}}{% endraw %}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And in &amp;ldquo;Dropbox folder path&amp;rdquo;, your folder for saving the text files, in my case, &amp;ldquo;Pinboard/&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:5ab6962d8ee079b9fb581ca8ba704a45&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;At this point, you should be receiving text files with bookmarked article contents some minutes after adding them to Pinboard. If you just want to save your bookmarks,
+and not their contents, there are &lt;a href=&#34;http://brettterpstra.com/2011/04/02/mirror-your-pinboard-bookmarks-with-openmeta-tags/&#34;&gt;other ways&lt;/a&gt; to do this. I&amp;rsquo;m sure there are other ways to save all content, (including subscribing to the premium Pinboard service),
+but I think this is the simplest, if you don&amp;rsquo;t have any problems with using a third party service acessing both your Pinboard and your Dropbox accounts.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>&#43; Band releases album as kernel module</title>
+      <link>http://nunes.pl/en/link-band-releases-album-as-kernel-module/</link>
+      <pubDate>Wed, 23 Apr 2014 23:42:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/link-band-releases-album-as-kernel-module/</guid>
+      <description>&lt;p&gt;Oh my god.&lt;/p&gt;
+
+&lt;p&gt;Best comment:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;There&amp;rsquo;s a man page for this, I assume.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Link: &lt;a href=&#34;http://www.jwz.org/blog/2014/04/band-releases-album-as-kernel-module/&#34;&gt;Band releases album as kernel module&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Merging Finder windows with simple Keyboard Maestro Macro</title>
+      <link>http://nunes.pl/en/merging-finder-windows-with-keyboard-maestro/</link>
+      <pubDate>Tue, 22 Apr 2014 12:15:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/merging-finder-windows-with-keyboard-maestro/</guid>
+      <description>&lt;p&gt;The new Finder tabs on OS X 10.9 Mavericks are frequently sub-used. This is a simple Keyboard Maestro macro which:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shows Finder, if it is not already on focus&lt;/li&gt;
+&lt;li&gt;Merge all your Finder windows into one, with tabs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Even if you are not a tabs person, it worth a try. No more losing control of too many Finder windows! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://nunes.pl/images/2014/04/keyboard-maestro-finder.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>&#43; Handling Growth with Postgres - 5 Tips From Instagram</title>
+      <link>http://nunes.pl/en/handling-growth-with-postgres-5-tips-from-instagram/</link>
+      <pubDate>Sat, 12 Apr 2014 01:57:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/handling-growth-with-postgres-5-tips-from-instagram/</guid>
+      <description>&lt;p&gt;Nice ideas from Instagram Engeneering on handling large PostgreSQL environments.&lt;/p&gt;
+
+&lt;p&gt;Link: &lt;a href=&#34;http://instagram-engineering.tumblr.com/post/40781627982/handling-growth-with-postgres-5-tips-from-instagram&#34;&gt;Handling Growth with Postgres: 5 Tips From Instagram&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
