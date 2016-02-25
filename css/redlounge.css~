@@ -485,6 +485,6 @@ hr.thin {
 
 code, kbd, pre, samp {
     _font-family: monospace, serif;
-    font-family: 'Monaco','Inconsolata','Consolas','courier new', monospace;
+    font-family: 'Consolas','courier new', monospace;
     font-size: 0.8em
 }

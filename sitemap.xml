@@ -3,12 +3,22 @@
   
   <url>
     <loc>http://nunes.pl/</loc>
-    <lastmod>2015-01-07T00:19:00+00:00</lastmod>
+    <lastmod>2016-02-26T12:19:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://nunes.pl/en/installing-tmux-ncdu-centos-6/</loc>
+    <lastmod>2016-02-26T12:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nunes.pl/pt_br/em-portugues/</loc>
+    <lastmod>2015-01-07T00:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nunes.pl/en/google-apps-logo/</loc>
     <lastmod>2015-01-07T00:19:00+00:00</lastmod>
   </url>
   
