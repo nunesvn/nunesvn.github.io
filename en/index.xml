@@ -6,8 +6,25 @@
     <description>Recent content in En on Nunes ＋</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2016 12:19:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Feb 2016 12:43:00 +0000</lastBuildDate>
     <atom:link href="http://nunes.pl/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to reset Linksys SPA8000 ATA</title>
+      <link>http://nunes.pl/en/reset-linksys-spa8000/</link>
+      <pubDate>Mon, 29 Feb 2016 12:43:00 +0000</pubDate>
+      
+      <guid>http://nunes.pl/en/reset-linksys-spa8000/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s easier to reset this ATA to default settings using an analog phone than via the web interface.
+Just plug the phone to any RJ-11 port and:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dial &lt;code&gt;*****&lt;/code&gt; to enter configuration menu&lt;/li&gt;
+&lt;li&gt;Dial &lt;code&gt;73738&lt;/code&gt; (R E S E T)&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;1&lt;/code&gt; to confirm&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>How to install Tmux and NCDU on CentOS 6.x</title>
